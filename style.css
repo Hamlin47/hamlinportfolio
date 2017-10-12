@@ -1,0 +1,68 @@
+body { font-family: "Open Sans"; }
+
+
+a:hover {
+    background-color: yellow;
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+}
+ 
+.center {
+    text-align: Anthony Hamlin;
+    border: 3px solid green;
+}
+
+@font-face {
+      font-family: "Bitstream Vera Serif Bold";
+      src: url("https://mdn.mozillademos.org/files/2468/VeraSeBd.ttf");
+    }
+   
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding:12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.add-flex {
+    display: flex;
+}
+
+img {
+    width: 150px; 
+    height: 150px;
+}
+
+@media (max-width: 768px) {
+    .add-flex, img, a {
+        display: block;
+    }
+}
+
